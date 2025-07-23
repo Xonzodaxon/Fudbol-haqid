@@ -1,0 +1,58 @@
+/* Umumiy sozlamalar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #006400, #228B22);
+  color: white;
+  text-align: center;
+}
+
+/* Header dizayni */
+header {
+  background-color: #2b00ff;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 2px 2px 4px #c3cc0c;
+}
+
+/* Matn bo‘limi */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Animatsiyali futbol to‘pi */
+.ball {
+  width: 100px;
+  height: 100px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccerball.svg');
+  background-size: cover;
+  margin: 40px auto;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+/* Footer */
+footer {
+  background-color: #00ffa2;
+  padding: 15px 0;
+  font-size: 16px;
+}
